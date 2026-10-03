@@ -1,6 +1,7 @@
 import logging
+from collections.abc import Collection
+
 import requests
-from typing import Collection
 
 logger = logging.getLogger(__name__)
 
