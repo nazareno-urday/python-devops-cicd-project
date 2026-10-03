@@ -4,9 +4,14 @@ from typing import Collection
 
 logger = logging.getLogger(__name__)
 
-def check_urls(urls: Collection[str], timeout: int = 5) -> dict[str, str]:
-    logger.info(f"Starting check for {len(urls)} URLs with a timeout of {timeout} seconds")
-    results = {}
+
+def check_urls(
+    urls: Collection[str], timeout: int = 5
+) -> dict[str, str]:
+    logger.info(
+        f"Starting check for {len(urls)} URLs with a timeout of {timeout} seconds"
+    )
+    results: dict[str, str] = {}
 
     for url in urls:
         status = "UNKNOWN"
@@ -30,7 +35,9 @@ def check_urls(urls: Collection[str], timeout: int = 5) -> dict[str, str]:
 
         except requests.exceptions.RequestException as error:
             status = f"ERROR: {error}"
-            logger.error(f"An unexpected error occurred while checking {url}")
+            logger.error(
+                f"An unexpected error occurred while checking {url}"
+            )
 
         results[url] = status
         logger.debug(f"Checked URL: {url:<40} -> {status}")
