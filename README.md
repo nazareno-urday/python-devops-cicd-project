@@ -3,7 +3,7 @@ This repository contains the code to learn CI/CD  for future projects implementa
 
 ## What we implement in this repository
 
-[] Implement the project (code files)
+[x] Implement the project (code files)
 [] Add a simple GHA workflow and make sure it runs until completion
 [] Add linting and format checks
 [] Add typing and security checks
