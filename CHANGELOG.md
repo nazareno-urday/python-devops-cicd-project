@@ -2,6 +2,14 @@
 
 <!-- version list -->
 
+## v1.0.3 (2026-10-04)
+
+### Bug Fixes
+
+- **ci**: Correct TestPyPI publishing workflow configuration
+  ([`34af9d8`](https://github.com/nazareno-urday/python-devops-cicd-project/commit/34af9d8e9948b41958810923479d0a0760d634bb))
+
+
 ## v1.0.2 (2026-10-04)
 
 ### Bug Fixes
