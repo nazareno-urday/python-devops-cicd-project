@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  build-and-test:
+  lint-static-checks:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repo
