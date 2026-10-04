@@ -2,6 +2,14 @@
 
 <!-- version list -->
 
+## v1.0.2 (2026-10-04)
+
+### Bug Fixes
+
+- **ci**: Use correct release token secret name
+  ([`1dc9f02`](https://github.com/nazareno-urday/python-devops-cicd-project/commit/1dc9f02016642ec880308c41cc0b3aba28c6525b))
+
+
 ## v1.0.1 (2026-10-04)
 
 ### Bug Fixes
