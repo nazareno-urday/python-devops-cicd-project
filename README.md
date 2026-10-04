@@ -9,4 +9,4 @@ This repository contains the code to learn CI/CD  for future projects implementa
 [x] Add typing (mypy) and security checks (bandit)
 [x] Add test automation
 [x] Build our Python project
-[] Publish the project to both TestPyPi and PyPi when a new tag is pushed
+[] Publish the project to both TestPyPI and PyPI when a new released is published
