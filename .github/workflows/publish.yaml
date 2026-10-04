@@ -31,6 +31,7 @@ jobs:
   publish-testpypi:
     need: build
     runs-on: ubuntu-latest
+    environment: development
     permissions:
       id-token: write
       contents: read
