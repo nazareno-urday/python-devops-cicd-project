@@ -2,6 +2,14 @@
 
 <!-- version list -->
 
+## v1.1.0 (2026-10-04)
+
+### Features
+
+- **python-cicd**: Add publish to PyPI
+  ([`cbd8f62`](https://github.com/nazareno-urday/python-devops-cicd-project/commit/cbd8f628224fda8c089900e644901d2b3831867a))
+
+
 ## v1.0.4 (2026-10-04)
 
 ### Bug Fixes
