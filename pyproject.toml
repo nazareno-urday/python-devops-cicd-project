@@ -3,7 +3,7 @@ requires = ["setuptools>=77.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "simple-http-checker"
+name = "https-checker-simple"
 version = "0.1.0"
 description = "A simple CLI tool to check the status of URLS."
 readme = "README.md"
