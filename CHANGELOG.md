@@ -2,6 +2,14 @@
 
 <!-- version list -->
 
+## v1.0.4 (2026-10-04)
+
+### Bug Fixes
+
+- **packaging**: Align package name with TestPyPI project
+  ([`1effc64`](https://github.com/nazareno-urday/python-devops-cicd-project/commit/1effc64264d453e203509056a8b79c09bd661562))
+
+
 ## v1.0.3 (2026-10-04)
 
 ### Bug Fixes
